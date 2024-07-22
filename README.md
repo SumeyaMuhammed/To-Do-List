@@ -21,15 +21,15 @@ This is a simple To-Do List application built with HTML, CSS, and JavaScript. It
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/to-do-list.git
+    git clone https://github.com/SumeyaMuhammed/To-Do-List.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd to-do-list
+    cd To-Do-List
     ```
 
-3. Open `index.html` in your preferred web browser.
+3. Open `to-do-list.html` in your preferred web browser.
 
 ## Usage
 
