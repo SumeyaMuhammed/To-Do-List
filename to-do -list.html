@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="to-do-list.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To-Do List <img src="icon.png" /></h2>
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            class="text-input"
+            placeholder="Add your text"
+          />
+          <select id="priority-select" class="text-input" >
+            <option value="Select Priority">Select Priority</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+          <input type="date" id="due-date-input" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <!-- <table border="1">
+                 <tr>
+                    <th class="name">Name</th>
+                    <th>Priority</th>
+                    <th>Date of completion</th>
+                </tr> 
+            </table> -->
+        <ul id="list-container">
+          <!-- <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="to-do-list.js"></script>
+  </body>
+</html>
